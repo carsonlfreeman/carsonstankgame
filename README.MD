@@ -47,8 +47,10 @@ OOPTankGame/
 
 ## Running the Program
 
-1. Locate your path to the JavaFX SDK `lib` directory.
-2. Once you have copied that path, run the following command:
+1. Download the jar executable labeled OOPTankGame-1.0-SNAPSHOT.jar
+2. Locate your path to the JavaFX SDK `lib` directory and copy it to your clipboard.
+3. Locate your jar file 
+4. Once you have copied that path, run the following command:
    ```bash
    java --module-path /path/to/javafx-sdk-21/lib --add-modules javafx.controls,javafx.fxml -jar OOPTankGame-1.0-SNAPSHOT.jar
    ```
