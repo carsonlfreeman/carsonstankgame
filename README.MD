@@ -47,7 +47,10 @@ OOPTankGame/
 
 ## Running the Program
 
-1. Download the jar executable labeled OOPTankGame-1.0-SNAPSHOT.jar
+1. Download the jar executable labeled OOPTankGame-1.0-SNAPSHOT.jar 
+
+https://github.com/carsonlfreeman/carsonstankgame/blob/main/Jar/OOPTankGame-1.0-SNAPSHOT.jar
+
 2. Locate your path to the JavaFX SDK `lib` directory and copy it to your clipboard.
 3. Locate your jar file 
 4. Once you have copied that path, run the following command:
