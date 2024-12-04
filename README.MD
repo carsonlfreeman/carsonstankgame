@@ -10,16 +10,16 @@
 In this Java-based tank game project, I've employed various object-oriented design patterns to enhance the codebase's structure, improve modularity, and facilitate maintenance and scalability. Below, we detail some of the primary design patterns utilized throughout the project.
 
 ### Singleton Pattern
-While not explicitly detailed in the provided code snippets, applications like ours typically implement the Singleton pattern to manage global state and configurations. This ensures there is only one instance of the game or certain components running at any time, which is crucial for consistency across the game's execution.
+The Tank Game implements Singleton pattern to manage global state and configurations. This ensures there is only one instance of the game or certain components running at any time, which is crucial for consistency across the game's execution. As well as we use Singleton to create our singler PLAYER.
 
 ### Factory Method Pattern
 The `TankEntityFactory` class demonstrates the Factory Method pattern, centralizing the creation of game entities such as walls, players, enemies, and bullets. This pattern encapsulates the instantiation processes, making the entity creation adaptable and isolated from other code, thereby reducing class coupling and centralizing object creation.
 
 ### Component Pattern
-Our project leverages the Component pattern extensively through classes like `PlayerComponent` and `EnemyAIComponent`. These components are used to extend the behavior of game entities dynamically, allowing us to compose behaviors (e.g., movement and shooting) rather than inheriting from base or parent classes. This approach avoids deep inheritance hierarchies and enhances flexibility and reusability.
+The Tank Game leverages the Component pattern extensively through classes like `PlayerComponent` and `EnemyAIComponent`. These components are used to extend the behavior of game entities dynamically, allowing us to compose behaviors (e.g., movement and shooting) rather than inheriting from base or parent classes. This approach avoids deep inheritance hierarchies and enhances flexibility and reusability.
 
 ### Observer Pattern
-We use the Observer pattern to handle events such as collisions and game state changes effectively. Classes such as `BulletPlayerHandler` and `BulletEnemyHandler` serve as observers to collision events between different game entities, allowing our game to manage state changes and interactions loosely coupled, promoting more manageable and modular event-driven architecture.
+I used the Observer pattern to handle events such as collisions and game state changes effectively. Classes such as `BulletPlayerHandler` and `BulletEnemyHandler` serve as observers to collision events between different game entities, allowing our game to manage state changes and interactions loosely coupled, promoting more manageable and modular event-driven architecture.
 
 ### Strategy Pattern
 Though not implemented as traditional strategies, the behaviors encapsulated in components like `PlayerComponent` and `EnemyAIComponent` align with the Strategy pattern. These behaviors, which can be dynamically changed during runtime, allow game entities to adapt their actions and responses to the game environment, facilitating complex game logic and interactive gameplay dynamics.
