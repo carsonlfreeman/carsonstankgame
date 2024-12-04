@@ -3,6 +3,9 @@
 ## Introduction
 **My Tank Game** is a Java-based program developed using the **FXGL** framework, which operates on top of standard JavaFX. FXGL (FX Game Library) is a 2D game development framework that simplifies the process of game creation in Java. By adding a simple dependency to your Maven project, FXGL makes coding much more user-friendly for newcomers.
 
+## UML Diagram
+![image description](https://github.com/carsonlfreeman/carsonstankgame/blob/main/carsontankgameumldiagram.png?raw=true)
+
 ## Design Patterns Used 
 In this Java-based tank game project, I've employed various object-oriented design patterns to enhance the codebase's structure, improve modularity, and facilitate maintenance and scalability. Below, we detail some of the primary design patterns utilized throughout the project.
 
