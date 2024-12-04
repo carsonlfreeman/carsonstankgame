@@ -1,0 +1,121 @@
+11:05:36.894 [main                     ] DEBUG Logger               - Configured Logger
+11:05:36.937 [main                     ] DEBUG GameApplication      - Logging settings
+Title: Carsons Tank Game
+Version: 0.0
+Width: 960
+Height: 960
+Fullscreen: false
+Intro: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+11:05:37.379 [JavaFX Application Thread] DEBUG FXGLApplication      - Initializing FXGL
+11:05:37.383 [JavaFX Application Thread] INFO  Engine               - FXGL-21.1 (27.03.2024 07.52) on LINUX (J:21.0.5 FX:21)
+11:05:37.384 [JavaFX Application Thread] DEBUG Engine               - JRE Vendor Name: Red Hat, Inc.
+11:05:37.384 [JavaFX Application Thread] DEBUG Engine               - Running on OS: Linux version 6.11.10-300.fc41.x86_64
+11:05:37.384 [JavaFX Application Thread] DEBUG Engine               - Architecture: amd64
+11:05:37.384 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+11:05:37.384 [JavaFX Application Thread] INFO  Engine               -       Ask questions and discuss at: https://github.com/AlmasB/FXGL/discussions
+11:05:37.385 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+11:05:37.501 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Creating a JavaFX scene
+11:05:37.502 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target size > screen size
+11:05:37.612 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target settings size: 960.0 x 960.0
+11:05:37.613 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled scene size:    807.0 x 832.0
+11:05:37.613 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (0.840625, 0.8666666666666667)
+11:05:37.615 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Set initial scene to FXGLStartupScene
+11:05:37.620 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Opening main window
+11:05:37.665 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Window border size: (0.0, 35.0)
+11:05:37.666 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled size: 807.0 x 797.0
+11:05:37.666 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (0.840625, 0.8302083333333333)
+11:05:37.666 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scene size: 807.0 x 832.0
+11:05:37.667 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Stage size: 807.0 x 832.0
+11:05:37.673 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+11:05:37.738 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - User app class for loading assets: class com.example.ooptankgame.TankApp
+11:05:37.738 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Applying CSS: fxgl_dark.css
+11:05:37.743 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/ui/css/fxgl_dark.css
+11:05:37.841 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Initializing application scenes
+11:05:37.919 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+11:05:38.000 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=960, physics.ppm=50.0
+11:05:38.000 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Using strategy: BRUTE_FORCE
+11:05:38.004 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 960x960
+11:05:38.016 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+11:05:38.035 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+11:05:38.045 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/textures/particles/smoke.png
+11:05:38.172 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/textures/particles/trace_horizontal.png
+11:05:38.224 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Application scenes initialized
+11:05:38.239 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+11:05:38.241 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: /home/carson/IdeaProjects/OOPTankGame/system/fxgl.bundle
+11:05:38.244 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+11:05:38.244 [FXGL Background Thread 1 ] DEBUG UpdaterService       - Checking for updates
+11:05:38.256 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Loading fonts
+11:05:38.257 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/ui/fonts/VarelaRound-Regular.ttf
+11:05:38.258 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Loading default localization
+11:05:38.258 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/languages/english.lang
+11:05:38.264 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/ui/fonts/Abel-Regular.ttf
+11:05:38.268 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/ui/fonts/TerminalLandMono-Regular.otf
+11:05:38.271 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/ui/fonts/Courier-Prime.ttf
+11:05:38.276 [JavaFX Application Thread] DEBUG FXGLApplication      - Registering font factories with UI factory
+11:05:38.283 [FXGL Background Thread 1 ] INFO  FXGLApplication      - FXGL initialization took: 0.611 sec
+11:05:38.296 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action0 - W
+11:05:38.296 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action1 - Up
+11:05:38.297 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action2 - S
+11:05:38.297 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action3 - Down
+11:05:38.298 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action4 - A
+11:05:38.298 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action5 - Left
+11:05:38.299 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action6 - D
+11:05:38.299 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action7 - Right
+11:05:38.299 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action8 - Space
+11:05:38.300 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action9 - F
+11:05:38.300 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/textures/fxgl_icon.png
+11:05:38.341 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///home/carson/.m2/repository/com/github/almasb/fxgl/21.1/fxgl-21.1.jar!/fxglassets/textures/fxgl_default_cursor.png
+11:05:38.343 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - CTRL+8
+11:05:38.344 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+11:05:38.344 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+11:05:38.345 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Toggle Debug Camera - CTRL+7
+11:05:38.347 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+11:05:38.347 [JavaFX Application Thread] DEBUG LoopRunner           - Initializing JavaFX AnimationTimerLoop
+11:05:38.348 [JavaFX Application Thread] DEBUG GameApplicationServi - Starting new game
+11:05:38.348 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+11:05:38.360 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLStartupScene and adding to FXGLLoadingScene
+11:05:38.361 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLStartupScene -> FXGLLoadingScene
+11:05:38.361 [JavaFX Application Thread] DEBUG GameApplicationServi - Clearing previous game
+11:05:38.361 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+11:05:38.361 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+11:05:38.361 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+11:05:38.363 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Initializing game
+11:05:38.367 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/home/carson/IdeaProjects/OOPTankGame/target/classes/assets/textures/animations/explosion.png
+11:05:38.372 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/home/carson/IdeaProjects/OOPTankGame/target/classes/assets/textures/animations/heal.png
+11:05:38.418 [FXGL Background Thread 1 ] WARN  TMXLevelLoader       - TiledMap generated from 1.11.0. Supported version: 1.9.0. Some features may not be parsed fully.
+11:05:38.453 [FXGL Background Thread 1 ] DEBUG TMXLevelLoader       - Parsed TiledMap: file:/home/carson/IdeaProjects/OOPTankGame/target/classes/assets/levels/tmx/tankgamemapnewwalls.tmx
+11:05:38.454 [FXGL Background Thread 1 ] DEBUG TMXLevelLoader       - Creating tile layer entities
+11:05:38.456 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Loading view for layer Grass
+11:05:38.458 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Created buffer with size 960.0x960.0
+11:05:38.501 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Loading view for layer Main Layer
+11:05:38.504 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Created buffer with size 960.0x960.0
+11:05:38.514 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Loading view for layer Plants
+11:05:38.516 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Created buffer with size 960.0x960.0
+11:05:38.518 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Loading view for layer Walls
+11:05:38.521 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Created buffer with size 960.0x960.0
+11:05:38.522 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Loading view for layer Health Packs
+11:05:38.525 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Created buffer with size 960.0x960.0
+11:05:38.526 [FXGL Background Thread 1 ] DEBUG TMXLevelLoader       - Creating object layer entities
+11:05:38.621 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/home/carson/IdeaProjects/OOPTankGame/target/classes/assets/textures/tanks/greenTank.png
+11:05:38.629 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/home/carson/IdeaProjects/OOPTankGame/target/classes/assets/textures/tanks/yellowTank.png
+11:05:38.653 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/home/carson/IdeaProjects/OOPTankGame/target/classes/assets/textures/items/healthpack.png
+11:05:38.656 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing removable entities
+11:05:38.657 [FXGL Background Thread 1 ] DEBUG GameWorld            - Setting level: com.almasb.fxgl.entity.level.Level@6e6d1524
+11:05:38.682 [FXGL Background Thread 1 ] INFO  FXGLApplication      - Game initialization took: 0.319 sec
+11:05:38.696 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+11:05:38.719 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLLoadingScene and adding to GameScene
+11:05:38.719 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLLoadingScene -> GameScene
+11:05:39.089 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL
+11:05:39.089 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+11:05:39.089 [JavaFX Application Thread] DEBUG SystemBundleService  - Saving FXGL system data
+11:05:39.091 [JavaFX Application Thread] DEBUG FileSystemAccess     - Writing to: /home/carson/IdeaProjects/OOPTankGame/system/fxgl.bundle
+11:05:39.092 [JavaFX Application Thread] DEBUG Async                - Shutting down background threads
+11:05:39.093 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Closing main window
+11:05:39.098 [JavaFX Application Thread] DEBUG Logger               - Closing Logger
